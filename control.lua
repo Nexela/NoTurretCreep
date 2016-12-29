@@ -148,7 +148,7 @@ function OnTick(event)
 end
 --script.on_event(defines.events.on_tick, OnTick)
 script.on_init(OnGameInit)
-script.on_load(OnPlayerCreated)
+--script.on_load(OnPlayerCreated)
 script.on_configuration_changed(OnGameChanged)
 
 ------------------------------------------------------------------------------------------
